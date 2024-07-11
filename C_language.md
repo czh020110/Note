@@ -1,4 +1,4 @@
-# <center>C 语言
+# <p align="center">C 语言</p>
 
 # 初识 C 语言
 
