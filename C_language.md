@@ -91,7 +91,7 @@ int main() {
 
 ---
 
-## <center>getchar()语句
+## <p align="center">getchar()语句</p>
 
 `getchar()` 是 C 语言标准输入库函数之一，用于从标准输入（通常是键盘）读取一个字符。它的作用是等待用户输入，并返回输入的字符。
 
@@ -185,7 +185,7 @@ int main() {
 
 在 C 语言中，链接（linking）分为内部链接（internal linkage）和外部链接（external linkage）。这两种链接方式决定了标识符（如变量和函数）的可见性和作用域。`static`和`extern`是用于控制这些链接的两个关键字。
 
-## <center>内部链接（Internal Linkage）
+## <p align="center">内部链接（Internal Linkage）</p>
 
 - **内部链接**意味着标识符在其定义所在的翻译单元（translation unit）内是可见的，但在其他翻译单元中不可见。
 - 使用`static`关键字可以实现内部链接。
@@ -207,7 +207,7 @@ void doSomething() {
 
 在这个例子中，`count`变量和`increment`函数都具有内部链接，它们仅在`file1.c`中可见，其他文件不能直接访问它们。
 
-## <center>外部链接（External Linkage）
+## <p align="center">外部链接（External Linkage）</p>
 
 - **外部链接**意味着标识符在所有翻译单元中都是可见的。
 - 默认情况下，不带`static`的全局变量和函数具有外部链接。
@@ -235,7 +235,7 @@ void doSomething() {
 
 在这个例子中，`count`变量和`increment`函数具有外部链接，可以在`file2.c`中引用并使用它们。
 
-## <center>`static` 关键字
+## <p align="center">`static` 关键字</p>
 
 `static` 关键字在 C 语言中有多种用途，它的作用取决于它所在的上下文。主要有以下几种使用场景：
 
@@ -332,7 +332,7 @@ void callPublicFunction() {
 
 在这个例子中，`helper` 函数仅在 `file1.c` 文件内可见，不能在 `file2.c` 中访问。
 
-## <center>`extern` 关键字
+## <p align="center">`extern` 关键字</p>
 
 `extern` 关键字用于声明一个在其他文件中定义的变量或函数。它的作用是告诉编译器这个变量或函数的定义在其他地方，并且在链接阶段会找到它的定义。
 
@@ -393,7 +393,7 @@ void callIncrement() {
 
 `const` 关键字在 C 语言中用于定义常量。常量是指在程序执行过程中其值不会发生变化的变量。使用 `const` 关键字可以提高代码的可读性和安全性，防止意外修改。下面是 `const` 关键字的一些常见用法和详细介绍：
 
-## <center>const 常量
+## <p align="center">const 常量</p>
 
 ### 基本用法
 
@@ -492,7 +492,7 @@ int main() {
 
 在上面的示例中，`a` 是一个常量整型变量，`p1` 是指针常量，`p2` 是常量指针，`p3` 是常量指针常量。通过这些例子，可以更好地理解 `const` 关键字的 使用。
 
-## <center>strcmp 函数：比较字符串
+## <p align="center">strcmp 函数：比较字符串</p>
 
 `strcmp`是一个 C 语言库函数，用于比较两个字符串。它的声明可以在`<string.h>`头文件中找到。`strcmp`函数的原型为：
 
