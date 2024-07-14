@@ -32,7 +32,7 @@
 
 ---
 
-## <center>`switch` 语句（可嵌套）
+## <p align="center">`switch` 语句（可嵌套）</p>
 
 > 在 C 语言中，`switch`语句允许根据变量的值执行不同的代码块。嵌套的`switch`语句就是在一个`switch`语句的某个`case`块中再包含另一个`switch`语句。下面是一个嵌套`switch`语句的示例：
 
