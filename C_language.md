@@ -1725,7 +1725,7 @@ printf("%p\n", (void*)a2);
 
 # 🌓 数组
 
-## <p align="center">一维数组（int）</p>
+## <p align="center">一维数组(int)</p>
 
 > 在 C 语言中，一继维数组是同类型元素的集合，这些元素在内存中连续存储。
 
